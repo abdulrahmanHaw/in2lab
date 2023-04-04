@@ -18,7 +18,7 @@ public class Application {
 }
 
 @Component
-//@Profile("testing")coo
+//@Profile("testing")
 class PopulateTestDataRunner implements CommandLineRunner {
 
     private final CustomerRepository customerRepository;
